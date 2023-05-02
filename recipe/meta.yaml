@@ -1,5 +1,5 @@
 {% set name = "drafthorse" %}
-{% set version = "2.2.1" %}
+{% set version = "2.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/drafthorse-{{ version }}.tar.gz
-  sha256: 6fafdae1e4bab0d0f96cdda527708bb36560a560673d485527eb39ee97289bc0
+  sha256: 5bd99f85c2c776bb7d9c485ae0368d7a84e2898f4078aba24fa64fd05d4e1883
 
 build:
   noarch: python
@@ -19,6 +19,7 @@ requirements:
     - python >=3.6
     - pip
   run:
+    - pypdf
     - python >=3.6
     - lxml
     - pypdf2
