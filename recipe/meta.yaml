@@ -22,7 +22,6 @@ requirements:
     - pypdf
     - python >=3.6
     - lxml
-    - pypdf2
 
 test:
   imports:
