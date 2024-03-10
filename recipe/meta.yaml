@@ -1,5 +1,5 @@
 {% set name = "drafthorse" %}
-{% set version = "2.3.0" %}
+{% set version = "2.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/drafthorse-{{ version }}.tar.gz
-  sha256: 5bd99f85c2c776bb7d9c485ae0368d7a84e2898f4078aba24fa64fd05d4e1883
+  sha256: 4d16a6dd60708676465e63ac7ff1b5f140e8c1c58be7d0eda66bc309814fc5c5
 
 build:
   noarch: python
