@@ -1,5 +1,5 @@
 {% set name = "drafthorse" %}
-{% set version = "2025.1.0" %}
+{% set version = "2025.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/drafthorse-{{ version }}.tar.gz
-  sha256: 83b0bae0cc72b99fd79c870828af7e20075ce8c60c43ef2c363f24940399db4f
+  sha256: 8f996518835916bc589c770eaf41bb2416f220f33effffe09abe53f4124c5bfa
 
 build:
   noarch: python
